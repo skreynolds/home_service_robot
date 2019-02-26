@@ -7,3 +7,7 @@ sleep 5
 gnome-terminal -e "roslaunch turtlebot_teleop keyboard_teleop.launch" &
 
 sleep 5
+
+gnome-terminal -e "roslaunch gmapping slam_gmapping_pr2.launch" &
+
+sleep 5
